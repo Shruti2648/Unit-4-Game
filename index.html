@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Crystal Collector Game</title>
+</head>
+
+<body>
+
+    <h1>Crystal Collector</h1>
+
+    <div id="game-instructions">
+        <p>
+            There are four crystals below, each with a hidden value. When you click on a crystal, its value will be added to the counter below. 
+            Your goal is to reach the target number without exceeding it. Are you up for the challenge?
+        </p> 
+        <p>
+            The values of the crystals will change every time you restart the game.
+        </p>
+    </div>
+
+    <div id="game-stats">
+        <p id="counter-text">Counter:</p>
+        <p id="target-text">Target:</p>
+        <p id="wins-text">Wins:</p>
+        <p id="losses-text">Losses:</p>
+    </div>
+
+    <div id="crystals">
+        <p id="crystal-1">Crystal 1</p>
+        <p id="crystal-2">Crystal 2</p>
+        <p id="crystal-3">Crystal 3</p>
+        <p id="crystal-4">Crystal 4</p>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
