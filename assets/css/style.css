@@ -1,84 +1,104 @@
 body {
-    background: rgb(70, 3, 70); 
-    color: whitesmoke;
+    background: rgb(0, 0, 0); 
+    color: rgb(241, 240, 240);
+    background-image: url("../images/cave-image-2.jpg");
+    background-repeat: no-repeat;
 }
 
 h1 {
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
     font-size: 40px;
     text-align: center;
 }
 
 #game-instructions {
-    margin: 50px;
-    height: 150px;
-    width: 700px;
-    padding: 20px;
-    background: rgb(122, 67, 122);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
+    height: 700px;
+    width: 400px;
+    padding: 10px 20px;
+    background: rgb(15, 37, 49);
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
     text-align: center;
     position: fixed;
-    left: 350px;
-    top: 100px;
+    right: 10px;
+    top: 10px;
 }
 
 #game-stats {
-    margin: 50px;
     height: 225px;
-    width: 700px;
+    width: 768px;
     padding: 20px;
-    background: rgb(122, 67, 122);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 22px;
+    background: rgb(15, 37, 49);
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
     text-align: center; 
     position: fixed;
-    left: 350px;
-    top: 400px;
+    left: 170px;
+    bottom: 25px;
+}
+
+#counter-text {
+    position: absolute;
+    left: 200px;
+    top: 50px;
+}
+
+#target-text {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+#wins-text {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+
+#losses-text {
+    position: absolute;
+    left: 500px;
+    top: 150px;
 }
 
 #crystals {
-    margin: 10px 50px;
-    height: 50px;
-    width: 100px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 22px;
-    text-align: center;
-    color: black;
+    height: 200px;
+    width: 800px;
+    background: rgb(15, 37, 49);
+    opacity: 0.8;
+    position: fixed;
+    left: 170px;
+    top: 170px;
 }
 
 #crystal-1 {
     padding: 20px;
-    background: rgb(61, 146, 65);
-    position: fixed;
-    left: 480px;
-    top: 340px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
 }
 
 #crystal-2 {
     padding: 20px;
-    background: rgb(236, 95, 95);
-    position: fixed;
-    left: 640px;
-    top: 340px;
+    position: absolute;
+    left: 245px;
+    top: 50px;
 }
 
 #crystal-3 {
     padding: 20px;
-    background: rgb(243, 180, 86);
-    position: fixed;
-    left: 800px;
-    top: 340px;
+    position: absolute;
+    left: 440px;
+    top: 50px;
 }
 
 #crystal-4 {
     padding: 20px;
-    background: rgb(112, 189, 219);
-    position: fixed;
-    left: 960px;
-    top: 340px;
+    position: absolute;
+    left: 635px;
+    top: 50px;
 }
 

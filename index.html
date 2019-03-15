@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <title>Crystal Collector Game</title>
@@ -11,12 +11,16 @@
 
 <body>
 
-    <h1>Crystal Collector</h1>
-
     <div id="game-instructions">
+        <h1>
+            Crystal Collector
+        </h1>
+        <br>
         <p>
-            There are four crystals below, each with a hidden value. When you click on a crystal, its value will be added to the counter below. 
-            Your goal is to reach the target number without exceeding it. Are you up for the challenge?
+            There are four crystals, each with a hidden value. When you click on a crystal, its value will be added to the counter. 
+        </p>
+        <p>
+            Your goal is to make the counter reach the target number without exceeding it. Are you up for the challenge?
         </p> 
         <p>
             The values of the crystals will change every time you restart the game.
@@ -31,10 +35,10 @@
     </div>
 
     <div id="crystals">
-        <p id="crystal-1">Crystal 1</p>
-        <p id="crystal-2">Crystal 2</p>
-        <p id="crystal-3">Crystal 3</p>
-        <p id="crystal-4">Crystal 4</p>
+        <img id="crystal-1" src="assets/images/blue-crystal.png" alt="Crystal 1">
+        <img id="crystal-2" src="assets/images/green-crystal.png" alt="Crystal 2">
+        <img id="crystal-3" src="assets/images/purple-crystal.png" alt="Crystal 3">
+        <img id="crystal-4" src="assets/images/red-crystal.png" alt="Crystal 4">
     </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
