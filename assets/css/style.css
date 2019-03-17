@@ -102,3 +102,172 @@ h1 {
     top: 50px;
 }
 
+@media screen and (max-width: 1450px) {
+    h1 {
+        font-size: 24px;
+    }
+    #game-instructions {
+        width: 300px;
+        font-size: 18px;
+    }
+    #game-stats {
+        padding: 20px;
+        height: 150px;
+        width: 500px;
+        font-size: 24px;
+    }
+    #counter-text {
+        position: absolute;
+        left: 100px;
+        top: 10px;
+    }
+    #target-text {
+        position: absolute;
+        left: 100px;
+        top: 100px;
+    }
+    #wins-text {
+        position: absolute;
+        left: 400px;
+        top: 10px;
+    }
+    #losses-text {
+        position: absolute;
+        left: 400px;
+        top: 100px;
+    }
+    #crystals {
+        padding: 5px 20px;
+        height: 150px;
+        width: 500px;
+    }
+    #crystal-1 {
+        height: 50px;
+        width: 60px;
+        position: absolute;
+        left: 20px;
+    }
+    #crystal-2 {
+        height: 50px;
+        width: 60px;
+        left: 140px;
+    }
+    #crystal-3 {
+        height: 50px;
+        width: 60px;
+        left: 260px;
+    }
+    #crystal-4 {
+        height: 50px;
+        width: 60px;
+        left: 380px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #game-instructions {
+        width: 200px;
+    }
+    #game-stats {
+        padding: 10px;
+        height: 150px;
+        width: 450px;
+        font-size: 20px;
+        position: fixed;
+        left: 100px;
+    }
+    #counter-text {
+        position: absolute;
+        left: 100px;
+        top: 10px;
+    }
+    #target-text {
+        position: absolute;
+        left: 100px;
+        top: 75px;
+    }
+    #wins-text {
+        position: absolute;
+        left: 300px;
+        top: 10px;
+    }
+    #losses-text {
+        position: absolute;
+        left: 300px;
+        top: 75px;
+    }
+    #crystals {
+        padding: 5px 20px;
+        height: 150px;
+        width: 450px;
+        position: fixed;
+        left: 100px;
+    }
+    #crystal-1, #crystal-2, #crystal-3, #crystal-4 {
+        height: 40px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #game-stats {
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+        position: fixed;
+        left: 100px;
+    }
+    #counter-text {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+    #target-text {
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+    #wins-text {
+        position: absolute;
+        top: 90px;
+        left: 50px;
+    }
+    #losses-text {
+        position: absolute;
+        top: 120px;
+        left: 50px;
+    }
+    #crystals {
+        padding: 10px;
+        height: 180px;
+        width: 200px;
+        position: fixed;
+        left: 100px;
+    }
+    #crystal-1 {
+        height: 30px;
+        width: 35px;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+    #crystal-2 {
+        height: 30px;
+        width: 35px;
+        top: 100px;
+        left: 20px;
+    }
+    #crystal-3 {
+        height: 30px;
+        width: 35px;
+        top: 30px;
+        left: 120px;
+    }
+    #crystal-4 {
+        height: 30px;
+        width: 35px;
+        top: 100px;
+        left: 120px;
+    }
+}
+
